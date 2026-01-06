@@ -1,0 +1,21 @@
+Programa TRIANGULO
+Var
+   A, B, C : real
+
+Início
+   Leia A, B, C
+
+   Se (A < B + C) e (B < A + C) e (C < A + B) então
+      Se (A = B) e (B = C) então
+         Escreva "Triângulo Equilátero"
+      Senão
+         Se (A = B) ou (A = C) ou (B = C) então
+            Escreva "Triângulo Isósceles"
+         Senão
+            Escreva "Triângulo Escaleno"
+         Fim_Se
+      Fim_Se
+   Senão
+      Escreva "As medidas não formam um triângulo"
+   Fim_Se
+Fim

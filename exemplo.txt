@@ -1,0 +1,15 @@
+programa exemplo
+var
+    A, B, C, X : Inteiro
+inicio
+    leia A, B, C
+    X <- A
+    se (X < B) entao
+        X <- B
+    fim_se
+
+    se (X < C) entao
+        X <- C
+    fim_se
+    escreva X
+fim
